@@ -1,0 +1,119 @@
+.box {
+  width : 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 55, 0.7);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.boxBorder> {
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.squareIt {
+  /* display:flex;
+  flex-wrap: wrap; */
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.centerBoard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.outerBox {
+  background-color: rgba(193, 154, 107, 0.9);
+  border: 2px solid black;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-image: url(./images/oceanBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.endText {
+  font-size: 80px;
+}
+
+.onTopLoser {
+  position: absolute;
+  top: 0;
+  margin: 10% 0%;
+  padding: 3% 0% 5% 5%;
+  width: 400px;
+  background-color: rgba(0, 0, 55, 1);
+  border: 2px solid black;
+  border-radius: 5%;
+  color: white;
+}
+
+.onTopWinner {
+  position: absolute;
+  margin: 10% 0%;
+  padding: 3% 0% 5% 3%;
+  width: 400px;
+  background-color: rgba(0, 0, 55, 1);
+  border: 2px solid black;
+  border-radius: 5%;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+}
+
+.centerMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.healthDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.ammoDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  width: 100px;
+}
